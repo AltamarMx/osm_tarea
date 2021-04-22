@@ -7,7 +7,7 @@ El archivo "materiales.osm" proviene de OpenStudio, es un archivo de texto plano
 
 Un objeto de un material se ve así:
 
-'''
+```
 OS:Material,
   {7311a74e-33cf-47e9-a28c-a9a6c74f4083}, !- Handle
   MAT-CC05 4 HW CONCRETE,                 !- Name
@@ -19,7 +19,7 @@ OS:Material,
   0.9,                                    !- Thermal Absorptance
   0.85,                                   !- Solar Absorptance
   0.85;                                   !- Visible Absorptance
-'''
+```
 
 Cualquier objeto de material siempre empieza con "OS:Material,"
 y termina con ";"
