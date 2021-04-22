@@ -28,8 +28,7 @@ Algunos objetos contienen 11 renglones, otros menos.
 
 Escribe un programa que:
 
-* Lea cualquier archivo OSM y separe todos los objetos "OS:Material," sin perder la estructura ni el orden de cada objeto.
-Le puedas especificar el nombre del archivo a guardar y el archivo a leer.
+* Lea cualquier archivo OSM y separe todos los objetos "OS:Material," sin perder la estructura ni el orden de cada objeto y agrupe esos objetos y los guarde en un archivo al que le puedas especificar el nombre el archivo a leer. Ejemplo  separa("materiales.osm","resultado.osm")  donde materiales.osm es el archivo original y resultado.osm contiene los objetos de materiales.
 * El programa debe estar documentado y contenido en una función.
 * Se debe entregar en un repositorio de GitHub con el siguiente nombre del repo: "nombre_osm" donde nombre es tu nombre de pila, ya no debe haber ningún "push" después de la fecha de entrega, entregas una liga y el repo debe ser público.
 * Tenga la estructura adecuada en folders.
