@@ -4,6 +4,7 @@ Crea una funcion para el manejo de un archivo OSM
 
 
 El archivo "materiales.osm" proviene de OpenStudio, es un archivo de texto plano y es utilizado para realizar simulaciones numéricas de edificaciones. La geometría de la edificación, equipo, personas, materiales y sistemas constructivos se encuentran definidos en lo que le llaman Objetos. Existen varios objetos de materiales donde se enlista un hash, nombre del material, espesor y sus propiedades térmicas.
+
 Un objeto de un material se ve así:
 
 OS:Material,
@@ -25,9 +26,10 @@ y termina con ";"
 Algunos objetos contienen 11 renglones, otros menos.
 
 Escribe un programa que:
-Lea cualquier archivo OSM y separe todos los objetos "OS:Material," sin perder la estructura ni el orden de cada objeto.
+
+* Lea cualquier archivo OSM y separe todos los objetos "OS:Material," sin perder la estructura ni el orden de cada objeto.
 Le puedas especificar el nombre del archivo a guardar y el archivo a leer.
-El programa debe estar documentado y contenido en una función.
-Se debe entregar en un repositorio de GitHub con el siguiente nombre del repo: "nombre_osm" donde nombre es tu nombre de pila, ya no debe haber ningún "push" después de la fecha de entrega, entregas una liga y el repo debe ser público.
+* El programa debe estar documentado y contenido en una función.
+* Se debe entregar en un repositorio de GitHub con el siguiente nombre del repo: "nombre_osm" donde nombre es tu nombre de pila, ya no debe haber ningún "push" después de la fecha de entrega, entregas una liga y el repo debe ser público.
 
 
