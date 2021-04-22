@@ -28,7 +28,7 @@ Algunos objetos contienen 11 renglones, otros menos.
 
 Escribe un programa que:
 
-* Lea cualquier archivo OSM y separe todos los objetos "OS:Material," sin perder la estructura ni el orden de cada objeto y agrupe esos objetos y los guarde en un archivo al que le puedas especificar el nombre. Ejemplo:
+* Lea cualquier archivo OSM y separe todos los objetos "OS:Material," contenidos en ese archivo OSM sin perder la estructura ni el orden de cada objeto y agrupe esos objetos y los guarde en un archivo al que le puedas especificar el nombre. Ejemplo:
 ```
 separa("materiales.osm","resultado.osm")  
 ```
