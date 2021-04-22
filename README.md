@@ -31,5 +31,6 @@ Escribe un programa que:
 Le puedas especificar el nombre del archivo a guardar y el archivo a leer.
 * El programa debe estar documentado y contenido en una función.
 * Se debe entregar en un repositorio de GitHub con el siguiente nombre del repo: "nombre_osm" donde nombre es tu nombre de pila, ya no debe haber ningún "push" después de la fecha de entrega, entregas una liga y el repo debe ser público.
+* Tenga la estructura adecuada en folders.
 
 
